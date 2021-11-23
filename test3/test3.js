@@ -8,6 +8,7 @@ function handlenum(event) {
   event.preventDefault();
   const gnvalue = generateNumber.value;
   const gsvalue = guessNumber.value;
+  console.log(typeof(gsvalue));
   const randomnum = Math.ceil(Math.random() * gnvalue);
 
   ychoose.innerHTML = `You chose: ${gsvalue}, the machine chose: ${randomnum} `;

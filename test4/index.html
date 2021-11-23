@@ -1,0 +1,37 @@
+03
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <div id="whole-number">
+    <form  id="whole-number">
+        <h2>Generate a number between 0 and
+            <input id="whole"
+            type="number"
+            placeholder="Select number range!"
+            required
+            min="0" max="100"> </h2>
+    </form>
+    </div>
+    <div id="your-number">
+    <form id="pick">
+        <h3>Guess the number:  
+            <input id="guess"
+            type="number"
+            placeholder="Select your number!"
+            required>
+            <button>Play!</button>
+        </h3>
+    </form>
+    </div>
+    <h4 id="result-num" class="hidden"></h4>
+    <h4 id="result-con" class="hidden"></h4>
+    <script src="test4.js"></script>
+</body>
+</html>
