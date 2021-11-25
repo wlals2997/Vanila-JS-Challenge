@@ -175,16 +175,16 @@ var articles = [
   },
 ];
 
-function newArray(articles) {
-  var newArticles = [];
-  for (var i = 0; i < articles.length; i++) {
-    var val1 =articles[i];
-    var val2=val1.problems.length;
-    if(val2>=1){
-        newArticles.push(articles[i])
-        
-    }
+function newArray(articles){
+  var newArticle=[];
+  for(var i=0; i<articles.length;i++){
+    var val1=articles[i]
+  var val2=val1.problems.length
+  if(val2>=1){
+    newArticle.push(val1)
   }
-  return newArticles;
+  }
+  return newArticle
 }
-
+const val4=newArray["하하하"];
+console.log(val4)
