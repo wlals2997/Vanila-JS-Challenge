@@ -1,7 +1,7 @@
 const dDay = document.querySelector('.date');
 
 function xmasDay() {
-  const xmas = new Date('2021,12,25 00:00:00');
+  const xmas = new Date('2022,12,25 00:00:00');
   const date = new Date();
 
   const dday = xmas - date;
